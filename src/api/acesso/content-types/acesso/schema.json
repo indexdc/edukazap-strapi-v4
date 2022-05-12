@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "acessos",
+  "info": {
+    "singularName": "acesso",
+    "pluralName": "acessos",
+    "displayName": "Acessos"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "usuario": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::usuario.usuario"
+    }
+  }
+}

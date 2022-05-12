@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cursos",
+  "info": {
+    "singularName": "curso",
+    "pluralName": "cursos",
+    "displayName": "Cursos",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "modulo": {
+      "displayName": "Módulos",
+      "type": "component",
+      "repeatable": true,
+      "component": "cursos.modulos"
+    }
+  }
+}

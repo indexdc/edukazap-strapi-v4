@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "modulos_concluidos",
+  "info": {
+    "singularName": "modulo-concluido",
+    "pluralName": "modulos-concluidos",
+    "displayName": "Módulos Concluídos"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "usuario": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::usuario.usuario"
+    },
+    "modulo": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::modulo.modulo"
+    }
+  }
+}

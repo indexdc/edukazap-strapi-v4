@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_conteudos_questions",
+  "info": {
+    "displayName": "questions",
+    "icon": "pencil-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "enunciado": {
+      "type": "text"
+    },
+    "alternativa01": {
+      "type": "string"
+    },
+    "alternativa02": {
+      "type": "string"
+    },
+    "alternativa03": {
+      "type": "string"
+    },
+    "correta": {
+      "type": "integer",
+      "default": 1,
+      "max": 3,
+      "min": 1
+    }
+  }
+}

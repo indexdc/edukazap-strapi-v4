@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_cursos_modulos",
+  "info": {
+    "displayName": "Módulos",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "modulo": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::modulo.modulo"
+    }
+  }
+}

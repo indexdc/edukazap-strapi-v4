@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "modulos",
+  "info": {
+    "singularName": "modulo",
+    "pluralName": "modulos",
+    "displayName": "Módulos",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "Conteudos": {
+      "type": "dynamiczone",
+      "components": [
+        "conteudos.conteudos",
+        "conteudos.questions"
+      ]
+    }
+  }
+}
