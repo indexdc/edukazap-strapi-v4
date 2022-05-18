@@ -14,7 +14,14 @@ module.exports = ({ env }) => [
       },
     },
   },
-  'strapi::cors',
+  {
+    name: 'strapi::cors',
+    config: {
+      enabled: true,
+      header: '*',
+      origin: ['https://api.edukazap.com', 'http://localhost:80', 'https://localhost:80']
+    }
+  },
   'strapi::poweredBy',
   'strapi::logger',
   'strapi::query',
