@@ -19,7 +19,7 @@ module.exports = ({ env }) => [
     config: {
       enabled: true,
       header: '*',
-      origin: ['https://api.edukazap.com', 'http://localhost:80', 'https://localhost:80']
+      origin: '*'
     }
   },
   'strapi::poweredBy',
