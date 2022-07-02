@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_conteudos_tests",
+  "info": {
+    "displayName": "Test",
+    "icon": "star"
+  },
+  "options": {},
+  "attributes": {
+    "exercise": {
+      "type": "component",
+      "repeatable": true,
+      "component": "conteudos.questions"
+    }
+  }
+}

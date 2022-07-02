@@ -19,7 +19,8 @@
       "type": "dynamiczone",
       "components": [
         "conteudos.conteudos",
-        "conteudos.questions"
+        "conteudos.questions",
+        "conteudos.test"
       ]
     }
   }

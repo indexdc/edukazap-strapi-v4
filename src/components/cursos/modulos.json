@@ -7,13 +7,13 @@
   },
   "options": {},
   "attributes": {
-    "title": {
-      "type": "string"
-    },
     "modulo": {
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::modulo.modulo"
+    },
+    "nome": {
+      "type": "string"
     }
   }
 }

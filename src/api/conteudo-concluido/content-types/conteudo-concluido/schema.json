@@ -1,11 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "modulos_concluidos",
+  "collectionName": "conteudos_concluidos",
   "info": {
-    "singularName": "modulo-concluido",
-    "pluralName": "modulos-concluidos",
-    "displayName": "Módulos Concluídos",
-    "description": ""
+    "singularName": "conteudo-concluido",
+    "pluralName": "conteudos-concluidos",
+    "displayName": "Conteúdos Concluídos"
   },
   "options": {
     "draftAndPublish": true
@@ -17,15 +16,21 @@
       "relation": "oneToOne",
       "target": "api::usuario.usuario"
     },
+    "curso": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::curso.curso"
+    },
     "modulo": {
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::modulo.modulo"
     },
-    "curso": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::curso.curso"
+    "component": {
+      "type": "string"
+    },
+    "content_id": {
+      "type": "integer"
     }
   }
 }
